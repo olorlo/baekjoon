@@ -3,7 +3,7 @@ import sys
 
 from collections import deque
 
-# 1697번 숨바꼭질
+# 백준 1697번 숨바꼭질
 def bfs(n,k):
     dq = deque([n])
     visited[n] = 0
